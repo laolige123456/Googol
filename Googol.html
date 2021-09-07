@@ -1,0 +1,76 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Googol</title>
+    <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js "></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+	html {
+
+	background: #ebf5fc;
+}
+.box{
+            margin: 100px auto;
+}
+
+        h1 {
+            text-align: center;
+text-shadow: 5px 5px 5px grey;
+font-size:56px;
+color: #ffffff;
+        }
+        input {
+            width: 50%;
+            height: 15px;
+            display: block;
+            margin: 30px auto;
+            border: none;
+            outline: none;
+font-size:14px;
+
+        }
+
+        button, input {
+            padding: 10px;
+background: #ebf5fc;;
+  	  box-shadow: -4px -4px 12px #ffffff, 4px 4px 12px #7982a0bf;
+              6px 6px 20px rgba(0, 0, 0, .1);
+            transition: box-shadow .2s ease-out;
+            border-radius: 50px;
+        }
+
+        button:hover, input:hover {
+	box-shadow: inset -4px -4px 12px #ffffff, inset 4px 4px 12px #7982a0bf;
+            inset 18px 18px 30px rgba(0, 0, 0, 0.1),
+            inset -18px -18px 30px rgba(255, 255, 255, 1);
+        }
+
+	@media(max-width:800px){
+	 	input {width: 75%;height: 15px;font-size:10px;}
+       h1 {font-size:35px;}
+		.box{margin: 50px auto;}
+}
+    </style>
+</head>
+<body>
+
+
+<div class="box">
+    <h1 id="z">Googol</h1>
+    <input id="bvInput" placeholder="输入搜索内容，或输入一个网址" type="text">
+  
+</div>
+
+
+
+
+
+</body>
+</html>
